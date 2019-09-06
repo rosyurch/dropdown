@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.input {
+    position: relative;
+    color: #fff;
+    background-color: #282c34;
+    margin: 0 10px;
+    padding: 7px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.form {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.input-active {
+    border: 1px solid #99f;
+}
+
+.label {
+    position: relative;
+}
+
+.suggestions {
+    text-align: start;
+    list-style-type: none;
+    padding: 5px;
+    background-color: #282c34;
+}
+
+.suggestWrap {
+    position: absolute;
+    left: 70px;
+    max-height: 250px;
+    overflow: hidden;
+    border: 1px solid #fff;
+}
+
+.list-item:hover,
+.list-item.active {
+    color: #282c34;
+    background-color: #fff;
+}
